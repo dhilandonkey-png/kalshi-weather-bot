@@ -1,0 +1,50 @@
+{
+  "cursor": "",
+  "markets": [
+    {
+      "ticker": "KXHIGHNY-26OCT22-B71.5",
+      "event_ticker": "KXHIGHNY-26OCT22",
+      "title": "Will the high temp in NYC be 71-72° on Oct 22, 2026?",
+      "strike_type": "between",
+      "floor_strike": 71,
+      "cap_strike": 72,
+      "yes_bid": 28,
+      "yes_ask": 31,
+      "no_bid": 69,
+      "no_ask": 72,
+      "status": "active",
+      "result": ""
+    },
+    {
+      "ticker": "KXHIGHNY-26OCT22-T77",
+      "event_ticker": "KXHIGHNY-26OCT22",
+      "title": "Will the high temp in NYC be >77° on Oct 22, 2026?",
+      "strike_type": "greater",
+      "floor_strike": 77,
+      "yes_bid": 0,
+      "yes_ask": 4,
+      "no_bid": 96,
+      "no_ask": 100,
+      "status": "active"
+    },
+    {
+      "ticker": "KXHIGHNY-26OCT20-T66",
+      "event_ticker": "KXHIGHNY-26OCT20",
+      "title": "Will the high temp in NYC be <66° on Oct 20, 2026?",
+      "strike_type": "less",
+      "cap_strike": 66,
+      "yes_bid": 0,
+      "yes_ask": 0,
+      "no_bid": 0,
+      "no_ask": 0,
+      "status": "finalized",
+      "result": "no"
+    },
+    {
+      "ticker": "SOMETHING-ELSE",
+      "event_ticker": "SOMETHING",
+      "strike_type": "custom",
+      "status": "active"
+    }
+  ]
+}

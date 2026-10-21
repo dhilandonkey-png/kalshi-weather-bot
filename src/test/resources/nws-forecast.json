@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "periods": [
+      { "name": "Tonight", "startTime": "2026-10-21T18:00:00-04:00", "isDaytime": false, "temperature": 55, "temperatureUnit": "F" },
+      { "name": "Wednesday", "startTime": "2026-10-22T06:00:00-04:00", "isDaytime": true, "temperature": 72, "temperatureUnit": "F" },
+      { "name": "Wednesday Night", "startTime": "2026-10-22T18:00:00-04:00", "isDaytime": false, "temperature": 58, "temperatureUnit": "F" },
+      { "name": "Thursday", "startTime": "2026-10-23T06:00:00-04:00", "isDaytime": true, "temperature": 20, "temperatureUnit": "C" }
+    ]
+  }
+}
