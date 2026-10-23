@@ -1,0 +1,29 @@
+{
+  "cursor": "",
+  "markets": [
+    {
+      "ticker": "KXHIGHNY-26OCT23-B59.5",
+      "event_ticker": "KXHIGHNY-26OCT23",
+      "strike_type": "between",
+      "floor_strike": 59,
+      "cap_strike": 60,
+      "yes_bid_dollars": "0.2800",
+      "yes_ask_dollars": "0.3100",
+      "no_bid_dollars": "0.6900",
+      "no_ask_dollars": "0.7200",
+      "status": "active",
+      "result": ""
+    },
+    {
+      "ticker": "KXHIGHNY-26OCT23-T64",
+      "event_ticker": "KXHIGHNY-26OCT23",
+      "strike_type": "greater",
+      "floor_strike": 64,
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0450",
+      "no_bid_dollars": null,
+      "no_ask_dollars": "nonsense",
+      "status": "active"
+    }
+  ]
+}

@@ -73,6 +73,11 @@ public final class Bot {
 
     static void trade(PaperAccount account, City city, List<Market> open, ForecastSource nws, TemperatureModel model,
             Strategy strategy, LocalDate today) throws IOException, InterruptedException {
+        long unpriced = open.stream().filter(m -> m.yesAskCents() == 0 && m.noAskCents() == 0).count();
+        if (!open.isEmpty() && unpriced == open.size()) {
+            // Every market having no price at all means parsing broke, not that the market is empty.
+            System.out.println("  WARNING: none of " + open.size() + " open markets had a price; check Kalshi's field names");
+        }
         Map<LocalDate, OptionalInt> forecasts = new HashMap<>();
         for (Market m : open) {
             var date = EventDates.dateOf(m.eventTicker());

@@ -46,6 +46,24 @@ class KalshiParsingTest {
     }
 
     @Test
+    void readsPricesSentAsDollarStrings() throws Exception {
+        List<Market> markets;
+        try (var in = KalshiParsingTest.class.getResourceAsStream("/kalshi-markets-dollars.json")) {
+            markets = KalshiClient.parseMarkets(new ObjectMapper().readTree(in));
+        }
+        Market range = markets.get(0);
+        assertEquals(28, range.yesBidCents());
+        assertEquals(31, range.yesAskCents());
+        assertEquals(69, range.noBidCents());
+        assertEquals(72, range.noAskCents());
+
+        Market above = markets.get(1);
+        assertEquals(5, above.yesAskCents(), "4.5 cents rounds to 5");
+        assertEquals(0, above.noBidCents(), "null is no price");
+        assertEquals(0, above.noAskCents(), "garbage is no price, not a crash");
+    }
+
+    @Test
     void readsTheDateFromTheEventTicker() {
         assertEquals(LocalDate.of(2026, 10, 22), EventDates.dateOf("KXHIGHNY-26OCT22").orElseThrow());
         assertEquals(LocalDate.of(2027, 1, 5), EventDates.dateOf("KXHIGHCHI-27JAN05").orElseThrow());

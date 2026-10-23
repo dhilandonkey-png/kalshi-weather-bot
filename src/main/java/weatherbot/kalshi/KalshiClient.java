@@ -3,6 +3,8 @@ package weatherbot.kalshi;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.net.URI;
 import java.net.URLEncoder;
 import java.net.http.HttpClient;
@@ -65,14 +67,31 @@ public class KalshiClient {
                     type,
                     m.hasNonNull("floor_strike") ? m.get("floor_strike").asDouble() : null,
                     m.hasNonNull("cap_strike") ? m.get("cap_strike").asDouble() : null,
-                    m.path("yes_bid").asInt(0),
-                    m.path("yes_ask").asInt(0),
-                    m.path("no_bid").asInt(0),
-                    m.path("no_ask").asInt(0),
+                    cents(m, "yes_bid"),
+                    cents(m, "yes_ask"),
+                    cents(m, "no_bid"),
+                    cents(m, "no_ask"),
                     m.path("status").asText(""),
                     m.path("result").asText("")));
         }
         return markets;
+    }
+
+    /**
+     * A price in cents. Kalshi has sent prices both as whole cents ({@code "yes_ask": 31})
+     * and as dollar strings ({@code "yes_ask_dollars": "0.3100"}), so both are read; the
+     * dollar field wins when present. Missing or unparseable prices are 0.
+     */
+    static int cents(JsonNode market, String field) {
+        JsonNode dollars = market.get(field + "_dollars");
+        if (dollars != null && !dollars.isNull()) {
+            try {
+                return new BigDecimal(dollars.asText()).movePointRight(2).setScale(0, RoundingMode.HALF_UP).intValueExact();
+            } catch (NumberFormatException | ArithmeticException e) {
+                return 0;
+            }
+        }
+        return market.path(field).asInt(0);
     }
 
     private JsonNode get(String url) throws IOException, InterruptedException {
