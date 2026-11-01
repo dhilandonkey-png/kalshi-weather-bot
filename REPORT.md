@@ -1,17 +1,17 @@
 # Paper trading report
 
-Updated 2026-10-31T14:45:23.035364751Z. Fake money only; see the README.
+Updated 2026-11-01T14:47:25.347977315Z. Fake money only; see the README.
 
 | | |
 |---|---|
 | Starting cash | $1000.00 |
-| Cash now | $401.95 |
-| In open positions (cost) | $348.96 |
-| Realized profit | -$249.09 |
-| Settled positions | 150 (32 won) |
-| Predictions graded | 162 |
-| Brier score, model | 0.1510 |
-| Brier score, market | 0.1089 |
+| Cash now | $529.78 |
+| In open positions (cost) | $246.86 |
+| Realized profit | -$223.36 |
+| Settled positions | 167 (37 won) |
+| Predictions graded | 182 |
+| Brier score, model | 0.1490 |
+| Brier score, market | 0.1070 |
 
 Lower Brier is better. The model only has a real edge if its score beats the market's.
 
@@ -19,35 +19,43 @@ Lower Brier is better. The model only has a real edge if its score beats the mar
 
 | Opened | Market | Side | Contracts | Price | Model | Cost | Result |
 |---|---|---|---|---|---|---|---|
+| 2026-11-01 | `KXHIGHNY-26NOV01-T60` | NO | 43 | 58¢ | 69% | $25.68 | open |
+| 2026-11-01 | `KXHIGHCHI-26NOV01-T64` | NO | 50 | 43¢ | 57% | $22.36 | open |
+| 2026-11-01 | `KXHIGHCHI-26NOV01-B66.5` | YES | 50 | 7¢ | 19% | $3.73 | open |
+| 2026-11-01 | `KXHIGHCHI-26NOV01-B64.5` | NO | 27 | 67¢ | 74% | $18.51 | open |
+| 2026-11-01 | `KXHIGHMIA-26NOV01-B83.5` | YES | 38 | 18¢ | 26% | $7.24 | open |
+| 2026-11-01 | `KXHIGHAUS-26NOV01-B87.5` | YES | 50 | 4¢ | 14% | $2.14 | open |
+| 2026-11-01 | `KXHIGHAUS-26NOV01-B85.5` | NO | 50 | 45¢ | 77% | $23.37 | open |
+| 2026-11-01 | `KXHIGHAUS-26NOV01-B81.5` | YES | 50 | 4¢ | 19% | $2.14 | open |
 | 2026-10-31 | `KXHIGHNY-26NOV01-B64.5` | YES | 50 | 5¢ | 14% | $2.67 | open |
 | 2026-10-31 | `KXHIGHNY-26NOV01-B62.5` | YES | 50 | 7¢ | 23% | $3.73 | open |
 | 2026-10-31 | `KXHIGHNY-26NOV01-B60.5` | NO | 50 | 56¢ | 74% | $28.87 | open |
-| 2026-10-31 | `KXHIGHNY-26OCT31-B59.5` | NO | 50 | 48¢ | 77% | $24.88 | open |
-| 2026-10-31 | `KXHIGHCHI-26OCT31-B60.5` | NO | 50 | 53¢ | 81% | $27.38 | open |
+| 2026-10-31 | `KXHIGHNY-26OCT31-B59.5` | NO | 50 | 48¢ | 77% | $24.88 | won $25.12 |
+| 2026-10-31 | `KXHIGHCHI-26OCT31-B60.5` | NO | 50 | 53¢ | 81% | $27.38 | won $22.62 |
 | 2026-10-31 | `KXHIGHMIA-26NOV01-T86` | YES | 50 | 2¢ | 12% | $1.07 | open |
 | 2026-10-31 | `KXHIGHMIA-26NOV01-B85.5` | YES | 50 | 6¢ | 19% | $3.20 | open |
 | 2026-10-31 | `KXHIGHMIA-26NOV01-B81.5` | NO | 50 | 60¢ | 77% | $30.84 | open |
 | 2026-10-31 | `KXHIGHMIA-26NOV01-B79.5` | NO | 47 | 78¢ | 86% | $37.23 | open |
 | 2026-10-31 | `KXHIGHAUS-26NOV01-T81` | YES | 50 | 7¢ | 20% | $3.73 | open |
 | 2026-10-31 | `KXHIGHAUS-26NOV01-B83.5` | NO | 50 | 59¢ | 74% | $30.35 | open |
-| 2026-10-30 | `KXHIGHNY-26OCT31-T59` | NO | 50 | 29¢ | 69% | $15.23 | open |
-| 2026-10-30 | `KXHIGHNY-26OCT31-B63.5` | YES | 50 | 2¢ | 14% | $1.07 | open |
-| 2026-10-30 | `KXHIGHNY-26OCT31-B61.5` | YES | 50 | 3¢ | 23% | $1.61 | open |
+| 2026-10-30 | `KXHIGHNY-26OCT31-T59` | NO | 50 | 29¢ | 69% | $15.23 | lost -$15.23 |
+| 2026-10-30 | `KXHIGHNY-26OCT31-B63.5` | YES | 50 | 2¢ | 14% | $1.07 | lost -$1.07 |
+| 2026-10-30 | `KXHIGHNY-26OCT31-B61.5` | YES | 50 | 3¢ | 23% | $1.61 | lost -$1.61 |
 | 2026-10-30 | `KXHIGHNY-26OCT30-B69.5` | NO | 50 | 36¢ | 77% | $18.81 | lost -$18.81 |
-| 2026-10-30 | `KXHIGHCHI-26OCT31-B66.5` | YES | 50 | 2¢ | 9% | $1.07 | open |
-| 2026-10-30 | `KXHIGHCHI-26OCT31-B64.5` | YES | 50 | 11¢ | 19% | $5.85 | open |
-| 2026-10-30 | `KXHIGHCHI-26OCT31-B62.5` | NO | 50 | 60¢ | 74% | $30.84 | open |
+| 2026-10-30 | `KXHIGHCHI-26OCT31-B66.5` | YES | 50 | 2¢ | 9% | $1.07 | lost -$1.07 |
+| 2026-10-30 | `KXHIGHCHI-26OCT31-B64.5` | YES | 50 | 11¢ | 19% | $5.85 | lost -$5.85 |
+| 2026-10-30 | `KXHIGHCHI-26OCT31-B62.5` | NO | 50 | 60¢ | 74% | $30.84 | lost -$30.84 |
 | 2026-10-30 | `KXHIGHCHI-26OCT30-B62.5` | YES | 50 | 4¢ | 23% | $2.14 | lost -$2.14 |
-| 2026-10-30 | `KXHIGHMIA-26OCT31-T88` | YES | 50 | 2¢ | 12% | $1.07 | open |
-| 2026-10-30 | `KXHIGHMIA-26OCT31-B87.5` | YES | 50 | 12¢ | 19% | $6.37 | open |
-| 2026-10-30 | `KXHIGHMIA-26OCT31-B85.5` | NO | 50 | 44¢ | 74% | $22.87 | open |
-| 2026-10-30 | `KXHIGHMIA-26OCT31-B81.5` | YES | 50 | 5¢ | 14% | $2.67 | open |
+| 2026-10-30 | `KXHIGHMIA-26OCT31-T88` | YES | 50 | 2¢ | 12% | $1.07 | lost -$1.07 |
+| 2026-10-30 | `KXHIGHMIA-26OCT31-B87.5` | YES | 50 | 12¢ | 19% | $6.37 | lost -$6.37 |
+| 2026-10-30 | `KXHIGHMIA-26OCT31-B85.5` | NO | 50 | 44¢ | 74% | $22.87 | lost -$22.87 |
+| 2026-10-30 | `KXHIGHMIA-26OCT31-B81.5` | YES | 50 | 5¢ | 14% | $2.67 | lost -$2.67 |
 | 2026-10-30 | `KXHIGHMIA-26OCT30-B88.5` | NO | 50 | 64¢ | 81% | $32.81 | won $17.19 |
-| 2026-10-30 | `KXHIGHAUS-26OCT31-T77` | NO | 50 | 59¢ | 80% | $30.35 | open |
-| 2026-10-30 | `KXHIGHAUS-26OCT31-B83.5` | YES | 50 | 2¢ | 9% | $1.07 | open |
-| 2026-10-30 | `KXHIGHAUS-26OCT31-B81.5` | YES | 50 | 5¢ | 19% | $2.67 | open |
-| 2026-10-30 | `KXHIGHAUS-26OCT31-B79.5` | YES | 50 | 17¢ | 26% | $9.00 | open |
-| 2026-10-30 | `KXHIGHAUS-26OCT31-B77.5` | NO | 33 | 69¢ | 77% | $23.27 | open |
+| 2026-10-30 | `KXHIGHAUS-26OCT31-T77` | NO | 50 | 59¢ | 80% | $30.35 | won $19.65 |
+| 2026-10-30 | `KXHIGHAUS-26OCT31-B83.5` | YES | 50 | 2¢ | 9% | $1.07 | lost -$1.07 |
+| 2026-10-30 | `KXHIGHAUS-26OCT31-B81.5` | YES | 50 | 5¢ | 19% | $2.67 | lost -$2.67 |
+| 2026-10-30 | `KXHIGHAUS-26OCT31-B79.5` | YES | 50 | 17¢ | 26% | $9.00 | won $41.00 |
+| 2026-10-30 | `KXHIGHAUS-26OCT31-B77.5` | NO | 33 | 69¢ | 77% | $23.27 | won $9.73 |
 | 2026-10-30 | `KXHIGHAUS-26OCT30-B73.5` | YES | 50 | 7¢ | 19% | $3.73 | lost -$3.73 |
 | 2026-10-29 | `KXHIGHNY-26OCT30-T69` | NO | 50 | 38¢ | 69% | $19.83 | won $30.17 |
 | 2026-10-29 | `KXHIGHNY-26OCT30-B73.5` | YES | 50 | 2¢ | 14% | $1.07 | lost -$1.07 |
