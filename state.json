@@ -1,6 +1,6 @@
 {
   "startingCashCents" : 100000,
-  "cashCents" : 21504,
+  "cashCents" : 15980,
   "positions" : [ {
     "ticker" : "KXHIGHNY-26OCT23-T57",
     "eventTicker" : "KXHIGHNY-26OCT23",
@@ -5730,7 +5730,7 @@
     "costCents" : 54,
     "modelProbability" : 0.12167256441386642,
     "openedOn" : "2026-11-19",
-    "settled" : false,
+    "settled" : true,
     "payoutCents" : 0
   }, {
     "ticker" : "KXHIGHNY-26NOV20-B68.5",
@@ -5741,7 +5741,7 @@
     "costCents" : 3084,
     "modelProbability" : 0.864478901554871,
     "openedOn" : "2026-11-19",
-    "settled" : false,
+    "settled" : true,
     "payoutCents" : 0
   }, {
     "ticker" : "KXHIGHNY-26NOV20-B66.5",
@@ -5752,8 +5752,8 @@
     "costCents" : 2688,
     "modelProbability" : 0.7685121645721209,
     "openedOn" : "2026-11-19",
-    "settled" : false,
-    "payoutCents" : 0
+    "settled" : true,
+    "payoutCents" : 5000
   }, {
     "ticker" : "KXHIGHNY-26NOV20-B64.5",
     "eventTicker" : "KXHIGHNY-26NOV20",
@@ -5763,7 +5763,7 @@
     "costCents" : 637,
     "modelProbability" : 0.25764629787448334,
     "openedOn" : "2026-11-19",
-    "settled" : false,
+    "settled" : true,
     "payoutCents" : 0
   }, {
     "ticker" : "KXHIGHNY-26NOV20-B62.5",
@@ -5774,7 +5774,7 @@
     "costCents" : 107,
     "modelProbability" : 0.18686497286213977,
     "openedOn" : "2026-11-19",
-    "settled" : false,
+    "settled" : true,
     "payoutCents" : 0
   }, {
     "ticker" : "KXHIGHNY-26NOV19-T59",
@@ -5818,7 +5818,7 @@
     "costCents" : 161,
     "modelProbability" : 0.3085375372760062,
     "openedOn" : "2026-11-19",
-    "settled" : false,
+    "settled" : true,
     "payoutCents" : 0
   }, {
     "ticker" : "KXHIGHCHI-26NOV20-B68.5",
@@ -5829,7 +5829,7 @@
     "costCents" : 2084,
     "modelProbability" : 0.7685121645721209,
     "openedOn" : "2026-11-19",
-    "settled" : false,
+    "settled" : true,
     "payoutCents" : 0
   }, {
     "ticker" : "KXHIGHMIA-26NOV20-T80",
@@ -5840,7 +5840,7 @@
     "costCents" : 107,
     "modelProbability" : 0.12167256441386642,
     "openedOn" : "2026-11-19",
-    "settled" : false,
+    "settled" : true,
     "payoutCents" : 0
   }, {
     "ticker" : "KXHIGHMIA-26NOV20-B86.5",
@@ -5851,7 +5851,7 @@
     "costCents" : 267,
     "modelProbability" : 0.13552109844512905,
     "openedOn" : "2026-11-19",
-    "settled" : false,
+    "settled" : true,
     "payoutCents" : 0
   }, {
     "ticker" : "KXHIGHMIA-26NOV20-B84.5",
@@ -5862,8 +5862,8 @@
     "costCents" : 1371,
     "modelProbability" : 0.7685121645721209,
     "openedOn" : "2026-11-19",
-    "settled" : false,
-    "payoutCents" : 0
+    "settled" : true,
+    "payoutCents" : 2000
   }, {
     "ticker" : "KXHIGHMIA-26NOV20-B82.5",
     "eventTicker" : "KXHIGHMIA-26NOV20",
@@ -5873,7 +5873,7 @@
     "costCents" : 2337,
     "modelProbability" : 0.7423537021255167,
     "openedOn" : "2026-11-19",
-    "settled" : false,
+    "settled" : true,
     "payoutCents" : 0
   }, {
     "ticker" : "KXHIGHMIA-26NOV20-B80.5",
@@ -5884,7 +5884,7 @@
     "costCents" : 373,
     "modelProbability" : 0.18686497286213977,
     "openedOn" : "2026-11-19",
-    "settled" : false,
+    "settled" : true,
     "payoutCents" : 0
   }, {
     "ticker" : "KXHIGHMIA-26NOV19-B84.5",
@@ -5917,7 +5917,7 @@
     "costCents" : 267,
     "modelProbability" : 0.20232832942163131,
     "openedOn" : "2026-11-19",
-    "settled" : false,
+    "settled" : true,
     "payoutCents" : 0
   }, {
     "ticker" : "KXHIGHAUS-26NOV20-B80.5",
@@ -5928,7 +5928,7 @@
     "costCents" : 107,
     "modelProbability" : 0.08829611480290323,
     "openedOn" : "2026-11-19",
-    "settled" : false,
+    "settled" : true,
     "payoutCents" : 0
   }, {
     "ticker" : "KXHIGHAUS-26NOV20-B78.5",
@@ -5939,7 +5939,7 @@
     "costCents" : 373,
     "modelProbability" : 0.18686497286213977,
     "openedOn" : "2026-11-19",
-    "settled" : false,
+    "settled" : true,
     "payoutCents" : 0
   }, {
     "ticker" : "KXHIGHAUS-26NOV20-B76.5",
@@ -5950,8 +5950,8 @@
     "costCents" : 2287,
     "modelProbability" : 0.7423537021255167,
     "openedOn" : "2026-11-19",
-    "settled" : false,
-    "payoutCents" : 0
+    "settled" : true,
+    "payoutCents" : 5000
   }, {
     "ticker" : "KXHIGHAUS-26NOV20-B74.5",
     "eventTicker" : "KXHIGHAUS-26NOV20",
@@ -5961,7 +5961,7 @@
     "costCents" : 1043,
     "modelProbability" : 0.7685121645721208,
     "openedOn" : "2026-11-19",
-    "settled" : false,
+    "settled" : true,
     "payoutCents" : 0
   }, {
     "ticker" : "KXHIGHAUS-26NOV19-T77",
@@ -6038,7 +6038,7 @@
     "costCents" : 54,
     "modelProbability" : 0.3085375372760062,
     "openedOn" : "2026-11-20",
-    "settled" : false,
+    "settled" : true,
     "payoutCents" : 0
   }, {
     "ticker" : "KXHIGHCHI-26NOV21-T66",
@@ -6093,7 +6093,7 @@
     "costCents" : 54,
     "modelProbability" : 0.13552109844512905,
     "openedOn" : "2026-11-20",
-    "settled" : false,
+    "settled" : true,
     "payoutCents" : 0
   }, {
     "ticker" : "KXHIGHCHI-26NOV20-B70.5",
@@ -6104,7 +6104,7 @@
     "costCents" : 54,
     "modelProbability" : 0.2314878354278791,
     "openedOn" : "2026-11-20",
-    "settled" : false,
+    "settled" : true,
     "payoutCents" : 0
   }, {
     "ticker" : "KXHIGHCHI-26NOV20-B66.5",
@@ -6115,7 +6115,7 @@
     "costCents" : 54,
     "modelProbability" : 0.18686497286213977,
     "openedOn" : "2026-11-20",
-    "settled" : false,
+    "settled" : true,
     "payoutCents" : 0
   }, {
     "ticker" : "KXHIGHMIA-26NOV21-T87",
@@ -6170,7 +6170,7 @@
     "costCents" : 54,
     "modelProbability" : 0.12167256441386642,
     "openedOn" : "2026-11-20",
-    "settled" : false,
+    "settled" : true,
     "payoutCents" : 0
   }, {
     "ticker" : "KXHIGHAUS-26NOV21-B78.5",
@@ -6192,6 +6192,226 @@
     "costCents" : 1199,
     "modelProbability" : 0.7423537021255167,
     "openedOn" : "2026-11-20",
+    "settled" : false,
+    "payoutCents" : 0
+  }, {
+    "ticker" : "KXHIGHNY-26NOV22-T61",
+    "eventTicker" : "KXHIGHNY-26NOV22",
+    "side" : "NO",
+    "contracts" : 50,
+    "priceCents" : 47,
+    "costCents" : 2438,
+    "modelProbability" : 0.6914624627239938,
+    "openedOn" : "2026-11-21",
+    "settled" : false,
+    "payoutCents" : 0
+  }, {
+    "ticker" : "KXHIGHNY-26NOV22-B65.5",
+    "eventTicker" : "KXHIGHNY-26NOV22",
+    "side" : "YES",
+    "contracts" : 50,
+    "priceCents" : 2,
+    "costCents" : 107,
+    "modelProbability" : 0.13552109844512905,
+    "openedOn" : "2026-11-21",
+    "settled" : false,
+    "payoutCents" : 0
+  }, {
+    "ticker" : "KXHIGHNY-26NOV22-B63.5",
+    "eventTicker" : "KXHIGHNY-26NOV22",
+    "side" : "YES",
+    "contracts" : 38,
+    "priceCents" : 14,
+    "costCents" : 565,
+    "modelProbability" : 0.2314878354278791,
+    "openedOn" : "2026-11-21",
+    "settled" : false,
+    "payoutCents" : 0
+  }, {
+    "ticker" : "KXHIGHNY-26NOV22-B61.5",
+    "eventTicker" : "KXHIGHNY-26NOV22",
+    "side" : "NO",
+    "contracts" : 16,
+    "priceCents" : 66,
+    "costCents" : 1082,
+    "modelProbability" : 0.7423537021255167,
+    "openedOn" : "2026-11-21",
+    "settled" : false,
+    "payoutCents" : 0
+  }, {
+    "ticker" : "KXHIGHNY-26NOV21-B60.5",
+    "eventTicker" : "KXHIGHNY-26NOV21",
+    "side" : "YES",
+    "contracts" : 50,
+    "priceCents" : 1,
+    "costCents" : 54,
+    "modelProbability" : 0.08829611480290328,
+    "openedOn" : "2026-11-21",
+    "settled" : false,
+    "payoutCents" : 0
+  }, {
+    "ticker" : "KXHIGHCHI-26NOV22-T58",
+    "eventTicker" : "KXHIGHCHI-26NOV22",
+    "side" : "YES",
+    "contracts" : 35,
+    "priceCents" : 12,
+    "costCents" : 446,
+    "modelProbability" : 0.20232832942163131,
+    "openedOn" : "2026-11-21",
+    "settled" : false,
+    "payoutCents" : 0
+  }, {
+    "ticker" : "KXHIGHCHI-26NOV22-B64.5",
+    "eventTicker" : "KXHIGHCHI-26NOV22",
+    "side" : "YES",
+    "contracts" : 50,
+    "priceCents" : 2,
+    "costCents" : 107,
+    "modelProbability" : 0.08829611480290323,
+    "openedOn" : "2026-11-21",
+    "settled" : false,
+    "payoutCents" : 0
+  }, {
+    "ticker" : "KXHIGHCHI-26NOV22-B62.5",
+    "eventTicker" : "KXHIGHCHI-26NOV22",
+    "side" : "YES",
+    "contracts" : 50,
+    "priceCents" : 5,
+    "costCents" : 267,
+    "modelProbability" : 0.18686497286213977,
+    "openedOn" : "2026-11-21",
+    "settled" : false,
+    "payoutCents" : 0
+  }, {
+    "ticker" : "KXHIGHCHI-26NOV22-B60.5",
+    "eventTicker" : "KXHIGHCHI-26NOV22",
+    "side" : "NO",
+    "contracts" : 43,
+    "priceCents" : 52,
+    "costCents" : 2312,
+    "modelProbability" : 0.7423537021255167,
+    "openedOn" : "2026-11-21",
+    "settled" : false,
+    "payoutCents" : 0
+  }, {
+    "ticker" : "KXHIGHCHI-26NOV22-B58.5",
+    "eventTicker" : "KXHIGHCHI-26NOV22",
+    "side" : "NO",
+    "contracts" : 17,
+    "priceCents" : 67,
+    "costCents" : 1166,
+    "modelProbability" : 0.7685121645721208,
+    "openedOn" : "2026-11-21",
+    "settled" : false,
+    "payoutCents" : 0
+  }, {
+    "ticker" : "KXHIGHCHI-26NOV21-B72.5",
+    "eventTicker" : "KXHIGHCHI-26NOV21",
+    "side" : "YES",
+    "contracts" : 50,
+    "priceCents" : 1,
+    "costCents" : 54,
+    "modelProbability" : 0.13552109844512905,
+    "openedOn" : "2026-11-21",
+    "settled" : false,
+    "payoutCents" : 0
+  }, {
+    "ticker" : "KXHIGHMIA-26NOV22-T88",
+    "eventTicker" : "KXHIGHMIA-26NOV22",
+    "side" : "YES",
+    "contracts" : 50,
+    "priceCents" : 2,
+    "costCents" : 107,
+    "modelProbability" : 0.12167256441386642,
+    "openedOn" : "2026-11-21",
+    "settled" : false,
+    "payoutCents" : 0
+  }, {
+    "ticker" : "KXHIGHMIA-26NOV22-B85.5",
+    "eventTicker" : "KXHIGHMIA-26NOV22",
+    "side" : "NO",
+    "contracts" : 50,
+    "priceCents" : 40,
+    "costCents" : 2084,
+    "modelProbability" : 0.7423537021255167,
+    "openedOn" : "2026-11-21",
+    "settled" : false,
+    "payoutCents" : 0
+  }, {
+    "ticker" : "KXHIGHMIA-26NOV22-B81.5",
+    "eventTicker" : "KXHIGHMIA-26NOV22",
+    "side" : "YES",
+    "contracts" : 50,
+    "priceCents" : 3,
+    "costCents" : 161,
+    "modelProbability" : 0.135521098445129,
+    "openedOn" : "2026-11-21",
+    "settled" : false,
+    "payoutCents" : 0
+  }, {
+    "ticker" : "KXHIGHMIA-26NOV21-B80.5",
+    "eventTicker" : "KXHIGHMIA-26NOV21",
+    "side" : "YES",
+    "contracts" : 50,
+    "priceCents" : 1,
+    "costCents" : 54,
+    "modelProbability" : 0.135521098445129,
+    "openedOn" : "2026-11-21",
+    "settled" : false,
+    "payoutCents" : 0
+  }, {
+    "ticker" : "KXHIGHAUS-26NOV22-T73",
+    "eventTicker" : "KXHIGHAUS-26NOV22",
+    "side" : "YES",
+    "contracts" : 50,
+    "priceCents" : 24,
+    "costCents" : 1264,
+    "modelProbability" : 0.5661838351504895,
+    "openedOn" : "2026-11-21",
+    "settled" : false,
+    "payoutCents" : 0
+  }, {
+    "ticker" : "KXHIGHAUS-26NOV22-B75.5",
+    "eventTicker" : "KXHIGHAUS-26NOV22",
+    "side" : "NO",
+    "contracts" : 34,
+    "priceCents" : 72,
+    "costCents" : 2496,
+    "modelProbability" : 0.864478901554871,
+    "openedOn" : "2026-11-21",
+    "settled" : false,
+    "payoutCents" : 0
+  }, {
+    "ticker" : "KXHIGHAUS-26NOV22-B73.5",
+    "eventTicker" : "KXHIGHAUS-26NOV22",
+    "side" : "NO",
+    "contracts" : 39,
+    "priceCents" : 54,
+    "costCents" : 2174,
+    "modelProbability" : 0.7685121645721209,
+    "openedOn" : "2026-11-21",
+    "settled" : false,
+    "payoutCents" : 0
+  }, {
+    "ticker" : "KXHIGHAUS-26NOV21-T74",
+    "eventTicker" : "KXHIGHAUS-26NOV21",
+    "side" : "YES",
+    "contracts" : 50,
+    "priceCents" : 1,
+    "costCents" : 54,
+    "modelProbability" : 0.3085375372760062,
+    "openedOn" : "2026-11-21",
+    "settled" : false,
+    "payoutCents" : 0
+  }, {
+    "ticker" : "KXHIGHAUS-26NOV21-B76.5",
+    "eventTicker" : "KXHIGHAUS-26NOV21",
+    "side" : "YES",
+    "contracts" : 50,
+    "priceCents" : 10,
+    "costCents" : 532,
+    "modelProbability" : 0.2314878354278791,
+    "openedOn" : "2026-11-21",
     "settled" : false,
     "payoutCents" : 0
   } ],
@@ -9559,122 +9779,122 @@
     "ticker" : "KXHIGHNY-26NOV20-T69",
     "modelProbability" : 0.06680723097650232,
     "marketProbability" : 0.025,
-    "yesWon" : null
+    "yesWon" : false
   }, {
     "ticker" : "KXHIGHNY-26NOV20-T62",
     "modelProbability" : 0.12167256441386642,
     "marketProbability" : null,
-    "yesWon" : null
+    "yesWon" : false
   }, {
     "ticker" : "KXHIGHNY-26NOV20-B68.5",
     "modelProbability" : 0.13552109844512905,
     "marketProbability" : 0.405,
-    "yesWon" : null
+    "yesWon" : true
   }, {
     "ticker" : "KXHIGHNY-26NOV20-B66.5",
     "modelProbability" : 0.2314878354278791,
     "marketProbability" : 0.485,
-    "yesWon" : null
+    "yesWon" : false
   }, {
     "ticker" : "KXHIGHNY-26NOV20-B64.5",
     "modelProbability" : 0.25764629787448334,
     "marketProbability" : 0.11,
-    "yesWon" : null
+    "yesWon" : false
   }, {
     "ticker" : "KXHIGHNY-26NOV20-B62.5",
     "modelProbability" : 0.18686497286213977,
     "marketProbability" : 0.015,
-    "yesWon" : null
+    "yesWon" : false
   }, {
     "ticker" : "KXHIGHCHI-26NOV20-T73",
     "modelProbability" : 0.01513008643585767,
     "marketProbability" : null,
-    "yesWon" : null
+    "yesWon" : false
   }, {
     "ticker" : "KXHIGHCHI-26NOV20-T66",
     "modelProbability" : 0.3085375372760062,
     "marketProbability" : 0.025,
-    "yesWon" : null
+    "yesWon" : false
   }, {
     "ticker" : "KXHIGHCHI-26NOV20-B72.5",
     "modelProbability" : 0.05167714454064465,
     "marketProbability" : 0.015,
-    "yesWon" : null
+    "yesWon" : false
   }, {
     "ticker" : "KXHIGHCHI-26NOV20-B70.5",
     "modelProbability" : 0.13552109844512905,
     "marketProbability" : 0.125,
-    "yesWon" : null
+    "yesWon" : false
   }, {
     "ticker" : "KXHIGHCHI-26NOV20-B68.5",
     "modelProbability" : 0.2314878354278791,
     "marketProbability" : 0.605,
-    "yesWon" : null
+    "yesWon" : true
   }, {
     "ticker" : "KXHIGHCHI-26NOV20-B66.5",
     "modelProbability" : 0.25764629787448334,
     "marketProbability" : 0.245,
-    "yesWon" : null
+    "yesWon" : false
   }, {
     "ticker" : "KXHIGHMIA-26NOV20-T87",
     "modelProbability" : 0.06680723097650232,
     "marketProbability" : 0.015,
-    "yesWon" : null
+    "yesWon" : false
   }, {
     "ticker" : "KXHIGHMIA-26NOV20-T80",
     "modelProbability" : 0.12167256441386642,
     "marketProbability" : 0.015,
-    "yesWon" : null
+    "yesWon" : false
   }, {
     "ticker" : "KXHIGHMIA-26NOV20-B86.5",
     "modelProbability" : 0.13552109844512905,
     "marketProbability" : 0.045,
-    "yesWon" : null
+    "yesWon" : false
   }, {
     "ticker" : "KXHIGHMIA-26NOV20-B84.5",
     "modelProbability" : 0.2314878354278791,
     "marketProbability" : 0.335,
-    "yesWon" : null
+    "yesWon" : false
   }, {
     "ticker" : "KXHIGHMIA-26NOV20-B82.5",
     "modelProbability" : 0.25764629787448334,
     "marketProbability" : 0.555,
-    "yesWon" : null
+    "yesWon" : true
   }, {
     "ticker" : "KXHIGHMIA-26NOV20-B80.5",
     "modelProbability" : 0.18686497286213977,
     "marketProbability" : 0.065,
-    "yesWon" : null
+    "yesWon" : false
   }, {
     "ticker" : "KXHIGHAUS-26NOV20-T81",
     "modelProbability" : 0.0333764496109632,
     "marketProbability" : null,
-    "yesWon" : null
+    "yesWon" : false
   }, {
     "ticker" : "KXHIGHAUS-26NOV20-T74",
     "modelProbability" : 0.20232832942163131,
     "marketProbability" : 0.045,
-    "yesWon" : null
+    "yesWon" : false
   }, {
     "ticker" : "KXHIGHAUS-26NOV20-B80.5",
     "modelProbability" : 0.08829611480290323,
     "marketProbability" : 0.015,
-    "yesWon" : null
+    "yesWon" : false
   }, {
     "ticker" : "KXHIGHAUS-26NOV20-B78.5",
     "modelProbability" : 0.18686497286213977,
     "marketProbability" : 0.065,
-    "yesWon" : null
+    "yesWon" : false
   }, {
     "ticker" : "KXHIGHAUS-26NOV20-B76.5",
     "modelProbability" : 0.2576462978744833,
     "marketProbability" : 0.565,
-    "yesWon" : null
+    "yesWon" : false
   }, {
     "ticker" : "KXHIGHAUS-26NOV20-B74.5",
     "modelProbability" : 0.2314878354278792,
     "marketProbability" : 0.33,
-    "yesWon" : null
+    "yesWon" : true
   }, {
     "ticker" : "KXHIGHNY-26NOV21-T65",
     "modelProbability" : 0.3085375372760062,
@@ -9794,6 +10014,126 @@
     "ticker" : "KXHIGHAUS-26NOV21-B74.5",
     "modelProbability" : 0.25764629787448334,
     "marketProbability" : 0.355,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHNY-26NOV22-T68",
+    "modelProbability" : 0.01513008643585767,
+    "marketProbability" : null,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHNY-26NOV22-T61",
+    "modelProbability" : 0.3085375372760062,
+    "marketProbability" : 0.535,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHNY-26NOV22-B67.5",
+    "modelProbability" : 0.05167714454064465,
+    "marketProbability" : null,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHNY-26NOV22-B65.5",
+    "modelProbability" : 0.13552109844512905,
+    "marketProbability" : 0.015,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHNY-26NOV22-B63.5",
+    "modelProbability" : 0.2314878354278791,
+    "marketProbability" : 0.125,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHNY-26NOV22-B61.5",
+    "modelProbability" : 0.25764629787448334,
+    "marketProbability" : 0.345,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHCHI-26NOV22-T65",
+    "modelProbability" : 0.0333764496109632,
+    "marketProbability" : null,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHCHI-26NOV22-T58",
+    "modelProbability" : 0.20232832942163131,
+    "marketProbability" : 0.11,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHCHI-26NOV22-B64.5",
+    "modelProbability" : 0.08829611480290323,
+    "marketProbability" : 0.015,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHCHI-26NOV22-B62.5",
+    "modelProbability" : 0.18686497286213977,
+    "marketProbability" : 0.045,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHCHI-26NOV22-B60.5",
+    "modelProbability" : 0.2576462978744833,
+    "marketProbability" : 0.485,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHCHI-26NOV22-B58.5",
+    "modelProbability" : 0.2314878354278792,
+    "marketProbability" : 0.335,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHMIA-26NOV22-T88",
+    "modelProbability" : 0.12167256441386642,
+    "marketProbability" : 0.015,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHMIA-26NOV22-T81",
+    "modelProbability" : 0.06680723097650232,
+    "marketProbability" : null,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHMIA-26NOV22-B87.5",
+    "modelProbability" : 0.18686497286213977,
+    "marketProbability" : 0.155,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHMIA-26NOV22-B85.5",
+    "modelProbability" : 0.2576462978744833,
+    "marketProbability" : 0.615,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHMIA-26NOV22-B83.5",
+    "modelProbability" : 0.2314878354278792,
+    "marketProbability" : 0.195,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHMIA-26NOV22-B81.5",
+    "modelProbability" : 0.135521098445129,
+    "marketProbability" : 0.025,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHAUS-26NOV22-T80",
+    "modelProbability" : 0.002303329210574079,
+    "marketProbability" : null,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHAUS-26NOV22-T73",
+    "modelProbability" : 0.5661838351504895,
+    "marketProbability" : 0.235,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHAUS-26NOV22-B79.5",
+    "modelProbability" : 0.012826757225283592,
+    "marketProbability" : 0.015,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHAUS-26NOV22-B77.5",
+    "modelProbability" : 0.05167714454064465,
+    "marketProbability" : 0.025,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHAUS-26NOV22-B75.5",
+    "modelProbability" : 0.13552109844512905,
+    "marketProbability" : 0.285,
+    "yesWon" : null
+  }, {
+    "ticker" : "KXHIGHAUS-26NOV22-B73.5",
+    "modelProbability" : 0.2314878354278791,
+    "marketProbability" : 0.47,
     "yesWon" : null
   } ]
 }
